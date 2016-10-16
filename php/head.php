@@ -31,7 +31,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="registrar.php">Registrar</a></li>
-                <li><a href="inscribir.php">Inscribir</a></li>
+                <li><a href="inscribir.php">Inscribir curso</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

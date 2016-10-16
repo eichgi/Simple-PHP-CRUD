@@ -28,7 +28,7 @@ include 'php/head.php';
                         <input type="hidden" name="accion" value="registrarUsuario">
                         <button type="submit" class="btn btn-default btn-success">Registrar usuario</button>
                     </form>
-                    <div id="alertaUsuario" class="alert" role="alert"></div>
+                    <div id="alertaUsuario" class="alert" role="alert" style="display: none"></div>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@ include 'php/head.php';
                         <input type="hidden" name="accion" value="registrarCurso">
                         <button type="submit" class="btn btn-default btn-success">Registrar curso</button>
                     </form>
-                    <div id="alertaCurso" class="alert" role="alert"></div>
+                    <div id="alertaCurso" class="alert" role="alert" style="display: none;"></div>
                 </div>
             </div>
         </div>

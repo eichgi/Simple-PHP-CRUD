@@ -75,7 +75,7 @@ include 'php/footer.php';
         accion: 'obtener' + tipo,
         id: id
     };
-    console.log(data);
+    
     var ajaxCurso = function () {
         $.post(apiUrl, data, function (response) {
             console.log(response);
