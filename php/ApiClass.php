@@ -10,7 +10,7 @@ class ApiClass
     {
         try {
 
-            $pdo = new PDO("mysql:host=localhost;dbname=crud", "root", "4lt4m1r4*");
+            $pdo = new PDO("mysql:host=localhost;dbname=crud", "user", "password");
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
             $pdo->exec("set charset utf8");
